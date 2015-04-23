@@ -12,6 +12,7 @@ INSERT INTO b VALUES (2,3)
 SELECT * FROM a;
 SELECT * FROM b
 SELECT * FROM a
+--多表关联更新
 UPDATE ab SET ab.name=ac.height FROM a AS ab ,b AS ac WHERE ab.age=ac.height
 
 --加列
